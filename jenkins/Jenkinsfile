@@ -26,11 +26,5 @@ pipeline {
                 echo 'This Pipeline process is completed Successfully'
             }
         }
-        stage('Finished') {
-            steps {
-                echo 'This Pipeline is finished'
-            }
-        }
-
     }
 }
